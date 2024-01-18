@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PropertyCard } from './PropertyCard/PropertyCard.component';
 import { PropertyListComponent } from './PropertyCard/property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
