@@ -7,6 +7,7 @@ import { PropertyCard } from './PropertyCard/PropertyCard.component';
 import { PropertyListComponent } from './PropertyCard/property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HousingService } from './services/housing.service';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    HousingService
   ],
   bootstrap: [AppComponent]
 })
