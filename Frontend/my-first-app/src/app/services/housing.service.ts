@@ -15,7 +15,7 @@ getAllProperty()
 
 getById()
 {
-  return this.http.get('data/properties');
+  return this.http.get('data/prop.json');
 }
 
 }
