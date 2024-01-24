@@ -13,4 +13,13 @@ getAllProperty()
   return this.http.get('data/properties.json');
 }
 
+getById()
+{
+  return this.http.get('data/properties');
 }
+
+}
+
+
+
+

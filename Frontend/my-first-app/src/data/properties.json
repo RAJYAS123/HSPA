@@ -34,5 +34,23 @@
   "Name":"Birla House",
   "Type":"Hotal",
   "Price":12000
+},
+{
+  "Id":7,
+  "Name":"Birla House",
+  "Type":"Hotal",
+  "Price":12000
+},
+{
+  "Id":8,
+  "Name":"Birla House",
+  "Type":"Hotal",
+  "Price":12000
+},
+{
+  "Id":9,
+  "Name":"Birla House",
+  "Type":"Hotal",
+  "Price":12000
 }
 ]
